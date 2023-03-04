@@ -5,7 +5,9 @@ node -V & npm -V
 
 npm init -y
 npm i express dotenv
-npm i -D nodemon
+npm i -D typescript @types/express @types/node
+npx tsc --init
+npm i -D concurrently nodemon
 
 touch app.js
 
