@@ -5,8 +5,8 @@ dist
 
 .env
 
-incoming
-storage
+#incoming
+#storage
 
 
 
