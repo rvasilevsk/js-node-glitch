@@ -1,0 +1,20 @@
+{
+  "name": "js-node-ts-heroku",
+  "version": "1.0.0",
+  "description": "[Deploying a Node.js app on Heroku within Minutes | by Kanchana Ranmuthu | Level Up Coding](https://levelup.gitconnected.com/deploying-a-node-js-app-on-heroku-within-minutes-9f50a3eff2fb)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
